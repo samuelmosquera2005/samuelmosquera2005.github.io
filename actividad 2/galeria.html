@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Documento sin t&iacute;tulo</title>
+<style type="text/css">
+<!--
+#galeria1 {
+	border: 1px solid  #1E0EAC;
+}
+#galeria1 {
+	border: 1px solid #0000FF;
+	margin: auto;
+	height: 100px;
+	width: 600px;
+}
+#contenedor {
+	height: 400px;
+	width: 600px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+}
+#contenedor {
+	border: 1px solid #003399;
+	height: 400px;
+	width: 600px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+}
+#carro1 {
+	height: 400px;
+	width: 600px;
+	position: absolute;
+	border: 1px solid #0033CC;
+	visibility: hidden;
+}
+#carro2 {
+	height: 400px;
+	width: 600px;
+	position: absolute;
+	border: 1px solid #0033FF;
+	visibility: hidden;
+}
+#carro3 {
+	height: 400px;
+	width: 600px;
+	border: 1px solid #0033FF;
+	position: absolute;
+	visibility: hidden;
+}
+#carro4 {
+	height: 400px;
+	width: 600px;
+	border: 1px solid #0033FF;
+	position: absolute;
+	visibility: hidden;
+}
+#carro5 {
+	height: 400px;
+	width: 600px;
+	border: 1px solid #0033FF;
+}
+#carro5 {
+	height: 400px;
+	width: 600px;
+	border: 1px solid #0033FF;
+	position: absolute;
+	visibility: hidden;
+}
+-->
+</style>
+<script type="text/JavaScript">
+<!--
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_showHideLayers() { //v6.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) if ((obj=MM_findObj(args[i]))!=null) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+//-->
+</script>
+</head>
+
+<body>
+<div id="galeria1"><img src="auto5.jpg" alt="foto5" width="120" height="100" onmouseover="MM_showHideLayers('carro5','','show')" onmouseout="MM_showHideLayers('carro5','','hide')" /><img src="auto4.jpg" alt="foto4" width="120" height="100" onmouseover="MM_showHideLayers('carro4','','show')" onmouseout="MM_showHideLayers('carro4','','hide')" /><img src="auto3.jpg" alt="foto3" width="120" height="100" onmouseover="MM_showHideLayers('carro3','','show')" onmouseout="MM_showHideLayers('carro3','','hide')" /><img src="auto2.jpeg" alt="foto2" width="120" height="100" onmouseover="MM_showHideLayers('carro2','','show')" onmouseout="MM_showHideLayers('carro2','','hide')" /><img src="auto.jpg" alt="foto1" width="120" height="100" onmouseover="MM_showHideLayers('carro1','','show')" onmouseout="MM_showHideLayers('carro1','','hide')" /></div>
+<div id="contenedor">
+  <div id="carro1"><img src="auto.jpg" alt="foton" width="600" height="400" /></div>
+  <div id="carro2"><img src="auto2.jpeg" alt="foton2" width="600" height="400" /></div>
+  <div id="carro3"><img src="auto3.jpg" alt="foton3" width="600" height="400" /></div>
+  <div id="carro4"><img src="auto4.jpg" alt="foton4" width="600" height="400" /></div>
+  <div id="carro5"><img src="auto5.jpg" alt="foton5" width="600" height="400" /></div>
+</div>
+</body>
+</html>
